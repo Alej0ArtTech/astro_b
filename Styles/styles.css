@@ -1,26 +1,84 @@
-.navbar--class {
+:root{ /* Aquí pongan los colores para unificarlos en la página web */
+    --primary-color:rgb(31,47,82) ;
+
+}
+
+body {
+    background: linear-gradient(to right, #6A0DAD, #003399);
+}
+
+.titulo-1 {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-weight: 50px;margin:5px;
+    padding: 30px;
+    text-align: center;
+}
+
+h2.titulo-2{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-weight: 50px;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+#Navbar--id {
+    margin: 5px;
+    padding: 10px;
     position: sticky;
-    background-color:rgb(57, 109, 219);
+    background: linear-gradient(to right, #4F8BF9, #00D3A9);
+    border: linear-gradient(to right, #4F8BF9, #00D3A9) solid;
+    border-radius: 5px;
 }
 
 nav.nav.link,
 nav .navbar-brand,
 nav .nav-link {
-    color: #e51a4c; {
+    color: #ffffff; 
         font-family: "Manrope", sans-serif;
         font-optical-sizing: auto;
+        font-size: 40px;
         font-weight: 400;
         font-style: normal;
-      }
+        text-transform: uppercase;
+      
 }
 
+.carousel {
+    margin: 10px;
+    padding: 20 px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+
+}
+
+#form-class{
+    
+}
 
 #footer {
     color:grey;
     background-color:rgb(31, 47, 82);
-    border: 5px slateblue;
+    border: 15px rgb(101, 98, 110);
     border-radius: 10px;
     margin-bottom: 15px;
-    padding-top: 5px;
+    padding-top: 15px;
+
 
 }
+.input-group{
+    
+}
+
+.form-line-active {
+    background: #ccffcc;
+    }
+
+
+
+
