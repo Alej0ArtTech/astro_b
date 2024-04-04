@@ -1,9 +1,26 @@
-#NavbarPrincipal {
+.navbar--class {
+    position: sticky;
     background-color:rgb(57, 109, 219);
 }
 
 nav.nav.link,
 nav .navbar-brand,
 nav .nav-link {
-    color: rgb(247, 245, 142);
+    color: #e51a4c; {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+
+#footer {
+    color:grey;
+    background-color:rgb(31, 47, 82);
+    border: 5px slateblue;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+
 }
